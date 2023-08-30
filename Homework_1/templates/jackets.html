@@ -1,0 +1,43 @@
+{% extends 'clothes.html' %}
+
+{%block title %}
+Куртки
+{% endblock %}
+
+{%block content %}
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top: 20px;">
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="/static/img/jacket_1.jpeg" class="card-img-top" alt="куртка">
+            <div class="card-body">
+                <h5 class="card-title">Куртка 1</h5>
+                <p class="card-text">Женская куртка 1</p>
+                <p>5000 руб</p>
+                <a href="#" class="btn btn-primary">Купить</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="/static/img/jacket_2.jpeg" class="card-img-top" alt="куртка">
+            <div class="card-body">
+                <h5 class="card-title">Куртка 2</h5>
+                <p class="card-text">Женская куртка 2</p>
+                <p>6000 руб</p>
+                <a href="#" class="btn btn-primary">Купить</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="/static/img/jacket_3.jpeg" class="card-img-top" alt="куртка">
+            <div class="card-body">
+                <h5 class="card-title">Куртка 3</h5>
+                <p class="card-text">Женская куртка 3</p>
+                <p>5500 руб</p>
+                <a href="#" class="btn btn-primary">Купить</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
