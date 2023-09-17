@@ -5,11 +5,15 @@
     <title>Login</title>
 </head>
 <body>
+<H1>Создание нового пользователя</H1>
 <form action="/login" method="post">
     <input type="text" name="username" placeholder="Name" required>
     <input type="email" name="email" placeholder="Email" required>
     <input type="password" name="password" placeholder="Password" required>
     <input type="submit" value="Отправить">
 </form>
+<a href="/users" style="margin-top: 20px;">
+    <button>Все пользователи</button>
+</a>
 </body>
 </html>

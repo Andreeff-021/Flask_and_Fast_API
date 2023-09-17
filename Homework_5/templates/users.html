@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for user in users %}
+<p>{{user}}</p>
+{% endfor %}
+<a href="/login" style="margin-top: 20px;">
+    <button>Добавить пользователя</button>
+</a>
+<a href="/update" style="margin-top: 20px;">
+    <button>Обновить данные пользователя</button>
+</a>
+<a href="/delete" style="margin-top: 20px;">
+    <button>Удалить пользователя</button>
+</a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+</head>
+<body>
+<h1>Обновление данных пользователя</h1>
+<form action="/update" method="post">
+    <input type="number" name="user_id" placeholder="id" required>
+    <input type="text" name="username" placeholder="New name" required>
+    <input type="email" name="email" placeholder="New email" required>
+    <input type="password" name="password" placeholder="New password" required>
+    <input type="submit" value="Обновить">
+</form>
+<a href="/users" style="margin-top: 20px;">
+    <button>Все пользователи</button>
+</a>
+</body>
+</html>
